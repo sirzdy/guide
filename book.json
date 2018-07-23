@@ -1,0 +1,24 @@
+{
+    "title": "前端规范",
+    "description": "前端规范",
+    "root": "",
+    "language": "en",
+    "plugins": [
+        "disqus",
+        "katex",
+        "editlink",
+        "github"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "zhangdanyang"
+        },
+        "editlink": {
+            "base": "https://github.com/sirzdy/guide/tree/master",
+            "label": "编辑本页"
+        },
+        "github": {
+            "url": "https://github.com/sirzdy/guide"
+        },
+    }
+}
