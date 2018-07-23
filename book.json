@@ -2,23 +2,73 @@
     "title": "前端规范",
     "description": "前端规范",
     "root": "",
-    "language": "en",
+    "language": "zh-hans",
     "plugins": [
+        "-lunr",
+        "-search",
+        "search-plus",
+        "-highlight",
+        "prism",
+        "-sharing",
+        "sharing-plus",
         "disqus",
+        "todo",
         "katex",
         "editlink",
-        "github"
+        "github",
+        "anchors",
+        "copy-code-button",
+        "tbfed-pagefooter",
+        "splitter",
+        "back-to-top-button"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "zhangdanyang"
         },
         "editlink": {
-            "base": "https://github.com/sirzdy/guide/tree/master",
-            "label": "编辑本页"
+            "base": "https://github.com/sirzdy/guide/blob/master",
+            "label": ""
         },
         "github": {
             "url": "https://github.com/sirzdy/guide"
         },
+        "tbfed-pagefooter": {
+            "copyright": "&copy zdy",
+            "modify_label": "Last Modified: ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper",
+                "linkedin",
+                "pocket",
+                "stumbleupon",
+                "douban",
+                "qq",
+                "qzone"
+            ]
+        }
     }
 }
